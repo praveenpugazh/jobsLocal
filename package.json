@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "client": "vite frontend/"
   },
   "author": "Praveen",
   "license": "MIT",
@@ -17,6 +18,7 @@
     "mongoose": "^6.5.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "vite": "^3.0.9"  
   }
 }
