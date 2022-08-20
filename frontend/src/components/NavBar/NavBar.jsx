@@ -5,7 +5,7 @@ import Logo from '../../assets/logo.svg'
 const NavBar = () => {
   return (
     <div>
-      <nav className='flex pl-10 mx-5 m-auto'>
+      <nav className='flex pl-10 mx-5 m-auto flex-wrap'>
         <div className='logo flex-1 items-center'>
           <img className='w-28' src={Logo} alt='logo' />
         </div>
