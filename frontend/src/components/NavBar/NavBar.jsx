@@ -14,14 +14,10 @@ const NavBar = () => {
           <p className='cursor-pointer'>Post jobs</p>
           <p className='cursor-pointer'>About</p>
           <Link to='/login'>
-            <button class='bg-purple-400 hover:bg-purple-500 rounded-lg py-2 px-4'>
-              Login
-            </button>
+            <button>Login</button>
           </Link>
           <Link to='/signup'>
-            <button class='bg-green-400 hover:bg-green-500 rounded-lg py-2 px-4'>
-              Sign Up
-            </button>
+            <button>Sign Up</button>
           </Link>
         </div>
       </nav>
