@@ -8,12 +8,12 @@ const userSchema = mongoose.Schema(
     },
     phone: {
       type: Number,
-      required: [true, 'Please add a mobile number'],
+      required: [false, 'Please add a mobile number'],
       unique: true
     },
     email: {
       type: String,
-      required: [false, 'Please add a email'],
+      required: [true, 'Please add a email'],
       unique: true
     },
     password: {
